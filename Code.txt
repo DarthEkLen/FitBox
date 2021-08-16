@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Box</title>
+</head>    
+    <style>
+        
+        body{
+            color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+            height: 1980px;
+            }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+          
+
+        }
+        .mid{
+           
+            display: block;
+            width: 28%;
+            margin: 22px auto;
+            padding: 2px 4px;
+            border: 2px solid aliceblue;
+            border-radius: 10px;
+           
+
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            padding: 0px 6px;
+            display: inline-block;
+        }
+        .navbar li a{
+            color: azure;
+            text-decoration: none;
+            font-size: 18px;
+            
+        }
+        .navbar li a:hover, .navbar li a:active{
+            border-radius: 10px;
+         background: grey;
+         color: black;
+         padding: 2px 2px;
+        }
+        .left img{
+            width: 80px;
+        }
+        .left div{
+            text-align: center;
+            font-size: 25px;
+        }
+        .btn{
+           margin: 0px 5px;
+           padding: 4px 12px;
+           font-size: 15px;
+           background-color: black;
+           color: grey;
+           border: 2px solid rgb(167, 162, 162);
+           border-radius: 25px;
+        }
+        .btn:hover{
+            color: black;
+            background-color: grey;
+        }
+    </style>
+
+<body>
+       <header class="header" >
+           <div class="left">
+               <img src="img/logo.png" alt="logo">
+               <div>Fit Box</div>
+           </div>
+           <div class="mid">
+               <ul class="navbar">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About Us</a></li>
+                   <li><a href="#">Fitness Centre</a></li>
+                   <li><a href="#">Contact Us</a></li>
+               </ul>
+            </div>
+            <div class="right">
+               <button class="btn">Help</button>
+               <button class="btn">Contact Us</button>
+            </div>
+
+       </header>
+</body>
+</html>
